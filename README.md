@@ -9,11 +9,6 @@ A minimal project that reads an LDR on analog pin `A0`, maps the 0\–1023 ADC v
 ## Hardware
 \- Board: Arduino Uno R4 WiFi  
 \- Sensor: Light Dependent Resistor (LDR)  
-\- Resistor: 10 kΩ (recommended for voltage divider)
-
-Wiring (voltage divider):
-\-
-\`5V\` --- LDR --- \`A0\` --- 10kΩ --- \`GND\`
 
 ## Software / PlatformIO
 Example `platformio.ini` snippet (replace `board` with the exact PlatformIO board ID for your Uno R4 WiFi if different):
